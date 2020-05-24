@@ -1,7 +1,7 @@
 <?php
 
 
-error_reporting(0);
+
 date_default_timezone_set("America/Hermosillo");
 //Standing LMB
 function standings_lmb($zona,$temp){
@@ -16,7 +16,7 @@ function standings_lmb($zona,$temp){
                     <td class="data-name has-logo">
                         <a href="">
                             <span class="team-logo">
-                                <img width="128" height="128" src="https://diablos.com.mx/fmilb/50/'.$standings['file_code'].'.gif" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="'.$standings['team_short'].'">
+                                <img width="128" height="128" src="/50/'.$standings['file_code'].'.gif" class="attachment-sportspress-fit-icon size-sportspress-fit-icon wp-post-image" alt="'.$standings['team_short'].'">
                             </span>'.$standings['team_full'].'
                         </a>
                     </td>
@@ -229,7 +229,7 @@ function player_mlb($pk,$stream){
             }
 
             echo ('
-                <iframe src="http://bilasport.pw/mlb/'.$stream.'.php" width="100%" height="400" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                <iframe src="http://#/mlb/'.$stream.'.php" width="100%" height="400" scrolling="no" frameborder="0" allow="autoplay; fullscreen" allowfullscreen=""></iframe>
             ');
         }
         

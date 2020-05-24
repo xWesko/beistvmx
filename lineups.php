@@ -1,7 +1,7 @@
 <?php
 
 
-error_reporting(0);
+
 date_default_timezone_set("America/Hermosillo");
 
 function obtener_gid(){

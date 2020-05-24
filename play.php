@@ -111,10 +111,7 @@
                 </div>
 
                 <div class="col-md-4">
-                        <script id="cid0020000227276918948" 
-                        data-cfasync="false" 
-                        async src="//st.chatango.com/js/gz/emb.js" 
-                        style="width: 100%;height: 400px;">{"handle":"beisboltv","arch":"js","styles":{"a":"333333","b":100,"c":"FFFFFF","d":"FFFFFF","k":"333333","l":"333333","m":"333333","n":"FFFFFF","p":"10","q":"333333","r":100,"t":0,"ab":false,"usricon":0.94,"surl":0,"allowpm":0,"cnrs":"0.6","fwtickm":1}}</script>
+                      chat 
                 </div>
             </div>
 
