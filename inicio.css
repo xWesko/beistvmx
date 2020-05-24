@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+@font-face {
+    font-family: beisbol;
+    src: url('font/verbeisbol.woff2');
+    font-weight: bold;
+}
+
+body,html{
+    font-family: beisbol;
+    background: #ececec;
+}
+
+.header{
+    background: #222338;
+}
+
+
+.menu{
+    padding: 13px 77px;
+}
+
+.donaciones{
+    border: solid 1px #fff;
+}
+
+@media only screen and (max-width: 800px) {
+    .donaciones{
+        border: solid 0px #fff;
+    }
+    .navbar-collapse {
+        margin-top: 41px;
+        text-align: center
+    }
+    .menu{
+        padding: 13px 10px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    font-family: beisbol;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+li.nav-item {
+    padding: 0px 10px;
+}
+
+.header .logo{
+    width: 90px;
+    top: 4px;
+    position: absolute;
+}
+
+.vb{
+    padding: 0px 30px;
+}
+
+.parallax_vb{
+    background-image: url('img/cut.jpg');
+    height: 305px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenido{
+    background: #fff;
+    padding: 10px 20px;
+}
+
+.titulo{
+    color: #333;
+}
+
+.txt1 {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #808080;
+    padding: 5px 0px;
+}
+
+.txt2{
+    font-family: "Helvetica Neue", sans-serif;
+    color: #808080;
+    padding: 5px 0px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.scrim{
+    height: 40px;
+    width: 100%;
+    background: #222338;
+    border-left: 14px solid #00e445;
+    color: #fff;
+}
+
+.scrim h2 {
+    font-size: 22px;
+    padding: 7px 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.kard{
+    padding: 15px 15px;
+}
+
+.evento{
+    border: solid 1px #D2D2D2;
+}
+
+.titulo_evento{
+    background: #F7F7F7;
+    font-size: 1.19rem;
+    line-height: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+.hora_evento{
+    text-align: center;
+    color: #666;
+    font-size: .84033613rem;
+    line-height: 4.2;
+    margin: 1.2rem 0 2rem;
+}
+
+.estado_evento {
+    text-align: center;
+    color: #434343;
+    line-height: 2.2;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.botones_evento{
+    text-align: center;
+    height: 57px;
+}
+
+.entrada{
+    color: #666;
+    font-size: .84033613rem;
+}
+
+.btn-ver {
+    color: #fff;
+    border-radius: 1px;
+    background-color: #FD7E17;
+    border-color: #EC710D;
+    text-shadow: 0 1px 0 #EC710D;
+    cursor: pointer;
+    line-height: 1;
+    padding: 1rem 2rem;
+    border-radius: 3px;
+}
+
+.btn-ver:hover{
+    color: #fff;
+    background-color:#e3751b;
+}
+
+
+/*JUEGO
+.menu_tv{
+    background: #000;
+    max-width: 1111px;
+    margin: 0px auto;
+}
+
+.contenido_tv{
+    background: #000;
+}
+
+.vb_tv{
+    background: #000;
+}
+*/
+
+.marcador{
+    color: #fff;
+    background: #333;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+    width:90px;
+    height: 60px;
+    margin: 2px -12px;
+
+}
+
+
+
+.status_m{
+    color: #c4c1c1;
+    font-size: 12px;
+    padding-bottom: 2px;
+}
+
+footer{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 1px;
+    background: #000;
+}
+
+a{
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover{
+    color: #222;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+

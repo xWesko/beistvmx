@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+
+@font-face {
+    font-family: beisbol;
+    src: url('font/verbeisbol.woff2');
+    font-weight: bold;
+}
+
+body,html{
+    background: #000;
+}
+
+.header{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.logo{
+    width: 100px;
+    margin-top: 20px
+}
+
+.canal{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+.marcadores{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.marcador {
+    margin: 4px;
+    background: #000000;
+    padding: 10px 12px;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 17px;
+    font-size: 15px
+}
+
+.marcador h5{
+    font-size: 10px
+}
+
+.scoreboard{
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 0px 10px;
+}
+
+.table_sb{
+    color: #fff;
+}
+
+.entradas_sb {
+    font-size: 13px;
+    font-weight: bold;
+    color: #7c7c7c;
+}
+
+.equipo_sb {
+    line-height: 1px;
+    font-size: 15px;
+    font-weight: 100;
+}
+.table td, .table th {
+    border-top: 0px solid #000;
+}
+
+.botones{
+    margin-top: 10px;
+}
+
+.embed-responsive-16by9::before {
+    padding-top: 0px !important
+}
+
+.viendo{
+    background: #333 !important;
+    border-radius: 7px !important;
+}
+
+img.logo_marcador {
+    padding: 3px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    background-color: #373553;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-color: #000;
+}
+.nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0px; 
+    border-top-right-radius: 0px;
+}
+.nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background: #201f35;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    background: #201f35;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+    position: initial !important; 
+    height: 400px !important; 
+}
+
+ a:hover {
+    text-decoration: none;
+}
+.marcador:hover{
+    background: #333 !important;
+    border-radius: 7px !important;
+}
+
+.table thead th {
+    border-bottom: 0px solid #dee2e6;
+}
+
+.table td, .table th {
+    padding: 0.15rem;
+    border-top: 0px solid #dee2e6;
+}
+a.box_link, .info_bateadores {
+    color: #bcbaba;
+}
+
+
+.hed, .player_name, .totals_cell, td, .info_bateadores{
+    font-family: 'Roboto Condensed', sans-serif !important
+}
+
