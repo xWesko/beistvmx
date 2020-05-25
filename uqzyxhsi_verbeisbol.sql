@@ -370,7 +370,7 @@ CREATE TABLE `vb_usuarios` (
 --
 
 INSERT INTO `vb_usuarios` (`id`, `nombre`, `email`, `pass`) VALUES
-(2, 'Luis', 'heyluisd@gmail.com', '$2y$10$XiCS1gsbViDCW//BGNQYeurhIOpuTKQRktH5GAci8ztO6Ju/p.cYS');
+(2, 'Luis', 'hola@gmail.com', '$2y$10$XiCS1gsbViDCW//BGNQYeurhIOpuTKQRktH5GAci8ztO6Ju/p.cYS');
 
 --
 -- Índices para tablas volcadas
